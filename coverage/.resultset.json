@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/charliecasserly/Documents/projects/bookmarks/spec/bookmark_spec.rb": {
+      "/Users/jonnykelly/Desktop/untitled folder/bookmarks/spec/bookmark_spec.rb": {
         "lines": [
           1,
           null,
@@ -26,26 +26,27 @@
           1,
           1,
           null,
+          1,
           1,
           null,
           null,
           null
         ]
       },
-      "/Users/charliecasserly/Documents/projects/bookmarks/lib/bookmark.rb": {
+      "/Users/jonnykelly/Desktop/untitled folder/bookmarks/lib/bookmark.rb": {
         "lines": [
           1,
           null,
           1,
           1,
-          4,
-          4,
+          3,
+          3,
           null,
           0,
           null,
           null,
-          4,
-          12,
+          3,
+          10,
           null,
           null,
           1,
@@ -59,20 +60,21 @@
           null
         ]
       },
-      "/Users/charliecasserly/Documents/projects/bookmarks/spec/features/creating_bookmarks_spec.rb": {
+      "/Users/jonnykelly/Desktop/untitled folder/bookmarks/spec/features/creating_bookmarks_spec.rb": {
         "lines": [
           1,
           1,
           1,
           1,
           1,
-          null,
           1,
+          null,
+          0,
           null,
           null
         ]
       },
-      "/Users/charliecasserly/Documents/projects/bookmarks/spec/features/viewing_bookmarks_spec.rb": {
+      "/Users/jonnykelly/Desktop/untitled folder/bookmarks/spec/features/viewing_bookmarks_spec.rb": {
         "lines": [
           1,
           1,
@@ -89,14 +91,14 @@
           null,
           1,
           null,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
           null,
           null
         ]
       }
     },
-    "timestamp": 1621432422
+    "timestamp": 1621436417
   }
 }
