@@ -36,43 +36,40 @@
           1,
           null,
           null,
-          null
-        ]
-      },
-      "/Users/charliecasserly/Documents/projects/bookmarks/lib/bookmark.rb": {
-        "lines": [
+          null,
+          1,
+          1,
           1,
           null,
           1,
           1,
           null,
-          1,
-          15,
-          15,
-          15,
           null,
           null,
           1,
-          3,
-          3,
+          1,
+          1,
+          1,
           null,
-          0,
           null,
-          3,
-          3,
-          7,
+          1,
+          1,
+          1,
+          1,
           null,
           null,
           null,
           1,
-          8,
-          8,
+          1,
+          1,
           null,
-          0,
+          1,
           null,
+          1,
+          1,
+          1,
+          1,
           null,
-          8,
-          8,
           null,
           null
         ]
@@ -97,6 +94,44 @@
           1,
           1,
           null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/charliecasserly/Documents/projects/bookmarks/spec/features/deleting_a_bookmark_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/charliecasserly/Documents/projects/bookmarks/spec/features/updating_a_bookmark_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
           1,
           null,
           null
@@ -127,6 +162,6 @@
         ]
       }
     },
-    "timestamp": 1621439636
+    "timestamp": 1621536782
   }
 }
