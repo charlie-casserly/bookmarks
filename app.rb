@@ -5,7 +5,7 @@ class MyApp < Sinatra::Base
   configure :development do
     register Sinatra::Reloader
   end
-  
+
   get '/' do
     'Bookmark Manager'
   end
@@ -13,14 +13,14 @@ class MyApp < Sinatra::Base
   get '/bookmarks' do
     @bookmarks = Bookmark.all
     erb :'bookmarks/index'
-  end 
+  end
 
   get '/bookmarks/new' do
     erb :'bookmarks/new'
   end
 
   post '/bookmarks' do
-    Bookmark.create(url: params['url'])
+    Bookmark.create(url: params[:url], title: params[:title])
     redirect '/bookmarks'
   end
 
