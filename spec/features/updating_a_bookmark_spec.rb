@@ -8,7 +8,7 @@ feature 'Updating a bookmark' do
     expect(current_path).to eq "/bookmarks/#{bookmark.id}/edit"
 
     fill_in('url', with: 'http://www.snakersacademy.com')
-    fill_in('title', with: "Snakers Academy")
+    fill_in('title', with: 'Snakers Academy')
     click_button('Submit')
 
     expect(current_path).to eq '/bookmarks'
