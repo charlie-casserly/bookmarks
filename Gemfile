@@ -12,3 +12,4 @@ gem 'simplecov', require: false, group: :test
 gem 'simplecov-console', require: false, group: :test
 gem 'sinatra'
 gem 'sinatra-contrib'
+gem 'sinatra-flash'
