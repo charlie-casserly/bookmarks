@@ -1,6 +1,7 @@
 require 'sinatra/base'
 require 'sinatra/reloader'
-require_relative './lib/bookmark'
+require './lib/bookmark'
+require './lib/database_connection'
 require './database_connection_setup'
 
 class MyApp < Sinatra::Base
