@@ -2,6 +2,7 @@ require 'sinatra/base'
 require 'sinatra/reloader'
 require 'sinatra/flash'
 require './lib/bookmark'
+require './lib/comment'
 require './lib/database_connection'
 require './database_connection_setup'
 require 'uri'
@@ -15,7 +16,7 @@ class MyApp < Sinatra::Base
   end
 
   get '/' do
-    'Bookmark Manager'
+    erb :'index'
   end
 
   get '/bookmarks' do
@@ -45,6 +46,16 @@ class MyApp < Sinatra::Base
   patch '/bookmarks/:id' do
     Bookmark.update(id: params[:id], title: params[:title], url: params[:url])
     redirect('/bookmarks')
+  end
+
+  get '/bookmarks/:id/comments/new' do
+    @bookmark_id = params[:id]
+    erb :'/bookmarks/comments/new'
+  end
+
+  post '/bookmarks/:id/comments' do 
+    Comment.create(text: params[:comment], bookmark_id: params[:id])
+    redirect '/bookmarks'
   end
 
   # start the server if ruby file executed directly

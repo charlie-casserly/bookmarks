@@ -1,5 +1,6 @@
 require 'pg'
 require_relative 'database_connection'
+require_relative 'comment'
 
 class Bookmark
   attr_reader :id, :title, :url
@@ -51,6 +52,10 @@ class Bookmark
       title: result[0]['title'],
       url: result[0]['url']
     )
+  end
+
+  def comments
+    DatabaseConnection.query("SELECT * FROM comments WHERE bookmark_id = #{id};")
   end
 
   private 

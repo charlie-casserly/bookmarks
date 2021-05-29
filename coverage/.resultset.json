@@ -85,9 +85,29 @@
           1,
           null,
           1,
+          2,
+          null
+        ]
+      },
+      "/Users/charliecasserly/Documents/projects/bookmarks/spec/comment_spec.rb": {
+        "lines": [
+          1,
+          1,
+          null,
           1,
           1,
           1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
           null
         ]
       },
@@ -122,10 +142,34 @@
           null
         ]
       },
+      "/Users/charliecasserly/Documents/projects/bookmarks/spec/features/adding_and_viewing_comments_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/charliecasserly/Documents/projects/bookmarks/spec/features/creating_bookmarks_spec.rb": {
         "lines": [
           1,
           1,
+          1,
+          1,
+          null,
           1,
           1,
           1,
@@ -189,11 +233,6 @@
           1,
           1,
           1,
-          null,
-          null,
-          1,
-          1,
-          1,
           1,
           null,
           1,
@@ -206,6 +245,6 @@
         ]
       }
     },
-    "timestamp": 1621849757
+    "timestamp": 1622293347
   }
 }

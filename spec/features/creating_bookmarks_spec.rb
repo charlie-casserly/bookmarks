@@ -1,6 +1,9 @@
 feature 'Adding a new bookmark' do
   scenario 'A user can add a bookmark to Bookmark Manager' do
-    visit('/bookmarks/new')
+    visit('/')
+    click_link 'Add Bookmark'
+    
+    expect(current_path).to eq '/bookmarks/new'
     fill_in('url', with: 'http://testbookmark.com')
     fill_in('title', with: 'Test Bookmark')
     click_button('Submit')
